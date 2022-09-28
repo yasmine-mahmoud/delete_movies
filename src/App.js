@@ -22,6 +22,7 @@ function App() {
 	useEffect(() => {
 		getmovies();
 	}, []);
+	//delete movies
 	const deletemovies = (e) => {
 		console.log(e.target.id);
 		let newState = [...data];
